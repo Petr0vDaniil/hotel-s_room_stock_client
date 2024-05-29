@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="nameEnterAnchor" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.applic_client.controllers.NameEnterController">
+   <children>
+
+      <TextField fx:id="nameTextField" layoutX="170.0" layoutY="138.0" prefHeight="34.0" prefWidth="258.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="95.0" prefHeight="48.0" prefWidth="408.0" text='Grand Hotel "See Pearl"'>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="enterNameLabel" alignment="CENTER" layoutX="185.0" layoutY="106.0" prefHeight="32.0" prefWidth="230.0" text="Enter your name" />
+      <ChoiceBox fx:id="user_type_choice" layoutX="171.0" layoutY="80.0" prefHeight="26.0" prefWidth="258.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="236.0" layoutY="48.0" prefHeight="32.0" prefWidth="127.0" text="Who are you?" />
+   </children>
+</AnchorPane>

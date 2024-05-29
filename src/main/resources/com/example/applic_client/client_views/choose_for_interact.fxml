@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.applic_client.client_controllers.ChooseForInteractController">
+   <children>
+       <Label alignment="CENTER" layoutX="207.0" layoutY="14.0" text="Choose type of room">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="7.0" layoutY="44.0" prefHeight="357.0" prefWidth="593.0">
+        <content>
+            <TilePane fx:id="choose_for_interact_anchor" prefHeight="357.0" prefWidth="593.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

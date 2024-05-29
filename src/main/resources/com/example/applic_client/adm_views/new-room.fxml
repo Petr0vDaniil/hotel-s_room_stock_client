@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.applic_client.admin_controllers.AdmNewRoomController">
+   <children>
+      <Label layoutX="107.0" layoutY="53.0" text="Type">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="53.0" text="Cleaner">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="14.0" text="Fill out the application form">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="95.0" text="Number of beds">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="number_of_beds" layoutX="37.0" layoutY="150.0" prefHeight="25.0" prefWidth="510.0" />
+      <Label layoutX="274.0" layoutY="265.0" text="Cost">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="268.0" layoutY="356.0" mnemonicParsing="false" onAction="#sendForm" text="Send">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="error_label" alignment="CENTER" layoutX="158.0" layoutY="53.0" prefHeight="17.0" prefWidth="270.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="187.0" text="Floor">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="type_of_room"  layoutX="37.0" layoutY="96.0" prefHeight="25.0" prefWidth="178.0" />
+      <ChoiceBox fx:id="cleaner_of_room" layoutX="369.0" layoutY="96.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="floor_of_room" layoutX="38.0" layoutY="224.0" prefHeight="25.0" prefWidth="510.0" />
+      <TextField fx:id="cost_of_room" layoutX="40.0" layoutY="304.0" prefHeight="25.0" prefWidth="510.0" />
+   </children>
+</AnchorPane>
